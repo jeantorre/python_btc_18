@@ -1,5 +1,5 @@
 ## Executar
-git clone `https://github.com/jeantorre/python_btc_18.git`
+git clone `https://github.com/jeantorre/python_btc_18.git`  
 `poetry shell`  
 `poetry install`  
 
