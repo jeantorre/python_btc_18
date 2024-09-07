@@ -30,6 +30,6 @@ def adicionar_pokemon_no_banco(pokemon_schema: PokemonSchema) -> Pokemon:
         db_pokemon = Pokemon(nome=pokemon_schema.nome, tipo=pokemon_schema.tipo)
         db.add(db_pokemon)
         db.commit()
-        db.refresh(db.pokemon)
+        db.refresh(db_pokemon)
 
     return db_pokemon

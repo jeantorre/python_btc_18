@@ -11,7 +11,7 @@ def main():
 
         if pokemon_schema:
             print(f"Adicionado {pokemon_schema.nome} ao banco de dados")
-            adicionar_pokemon_no_banco
+            adicionar_pokemon_no_banco(pokemon_schema)
 
         else:
             print(f"Não foi possível obter dados para o pokemon com ID {pokemon_id}")
